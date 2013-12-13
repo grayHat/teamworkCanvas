@@ -1,0 +1,33 @@
+body
+{
+	background-color:black;
+}
+#canvasBg
+{
+	position:absolute;
+	left:50%;
+	margin-left:-450px;
+}
+
+#canvasHero, #canvasMonsters, #canvasEND
+{
+	position:absolute;
+	left:50%;
+	margin-left:-450px;
+}
+
+button
+{
+	background: black;
+	color: white;
+	border: 3px solid white;
+	position: relative;
+	top: 350;
+	left: 460;
+	font-weight: bold;
+	font-family: verdana;
+	border-radius: 3px;
+	height: 50px;
+	width: 100px;
+	display: none;
+}

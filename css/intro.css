@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Acadian;
+    src: url('acadian.eot');
+	src: url('acadian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html
+{
+	background: black;
+}
+#content-intro
+{
+	position:relative;
+	top: -15px;
+	width:100%;
+	height: 680px;
+	background-image: url(../images/intro.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #7f4c42;
+	font-family: Acadian;
+	font-weight: bold;
+	text-align: center;
+}
+ul 
+{
+	padding: 0 15px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	top: 180px;
+}
+	ul ul 
+	{
+		display: none;
+	}
+		ul li:hover > ul
+		{
+			display: block;
+			float:letf;
+		}
+	ul li 
+	{
+		border-radius: 3px;
+		background: #f6f974;
+		margin-right: 3px;
+		position: relative; 
+		margin-bottom: 1px;
+	}
+		ul li a 
+		{
+			display: block; padding: 14px 60px;
+			text-decoration: none;					
+			color: #7f4c42;
+			font-family: Acadian;
+			font-weight: bold;
+			font-size: 25px;
+		}
+	ul ul 
+	{
+		padding: 0; 
+		position: relative;
+		top: -50px;
+		left: 173px;
+		margin-bottom: -100px;
+		float: left;
+	}
+		ul ul li 
+		{
+			position: relative;
+			z-index:10;
+			text-align: right;
+		}
+			ul ul li a 
+			{
+				padding: 10px 30px;
+				color: white;
+				color: #7f4c42;
+				font-family: Acadian;
+				font-weight: bold;
+				font-size: 25px;
+			}	
+				ul ul ul
+				{
+					position: absolute; left: 101%; top:-200px;
+				}
+					ul div
+					{
+						text-align: center;
+					}
+				ul ul ul li
+				{
+					width: 300px;
+					font-size: 17px;
+				}
+				#sound
+				{
+					top: 0px;
+				}
+				#sound-item
+				{
+					width: 260px;
+				}
+
+				#last
+				{
+					position: absolute; left: -221px; top:-180px; 
+				}
+
+				#last #last-item
+				{
+					width: 220px;
+					padding-bottom: 10px;
+					padding-top: 0px;
+				}
+				
